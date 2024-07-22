@@ -1,4 +1,5 @@
 def sum_all(*args):
+    print(f"args, {args}")
     return sum(args)
 
 print(sum_all(1, 2))
